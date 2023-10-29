@@ -28,6 +28,7 @@ We type command into the _**shell**_, the command interpreter. There are various
 | cd | change directory | cd ~ (goes to home) <br> cd .. (goes back one folder) |
 | mkdir | create a new directory | |
 | rmdir | remove empty directory. If there’s file inside directory, it will throw an error| |
+| exit | exit a running session | |
 
 ## File related Commands
 | **Commands** | **Description** | **Sample codes (if any)** |
