@@ -47,14 +47,16 @@ We type command into the _**shell**_, the command interpreter. There are various
 | man <command> | shows the manual page (documentation) for the command. If there's no manual page, try the help command |  |
 | help <command> | shows the manual page (documentation) for the command. If there's no manual page, the command might be a _**shell built-in**_ so try the _**help**_ command instead |  |
 
-## Reading dash files
+## Reading files with filenames starting with dashes / containing spaces
 Because dash (-) is generally used by commands to specify options and arguments, working with dashed filename requires some attention. 
 | **Commands** | **Description** | **Sample codes (if any)** |
 | -------- | ------- | ------- |
 | touch -- -filename | Create file with name starting with dash. Need to include '--' before the filename starting with '-' |  |
 | rm -rf -- -filename | Remove file with name starting with dash. Need to include '--' before the filename starting with '-' |  |
 | cat < -filename <br> cat ./-filename | Read file with name starting with dash. Need to include '<' or './' before the filename starting with '-' |  |
-| ls -l -- -filename | List file with name starting with dash. Need to include '--' before the filename starting with '-' |  |
+| ls -l -- -filename | List file with name starting with dash. Need to include '--' before the filename starting with '-' | |
+| cat 'space in name' | Read file with name containing space |  |
+| cat space\ in\ name | Read file with name containing space. Backslash act as escape for 'space' characters |  |
 
 
 
