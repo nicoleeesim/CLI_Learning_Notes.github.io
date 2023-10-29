@@ -24,5 +24,6 @@ We type command into the _**shell**_, the command interpreter. There are various
 | cal | gives calendar | |
 | ls | list contents of current directory | |
 | ls -l | gives long listing of current directory, including owner, size, date and permissions for files | |
-| ls -l | gives long listing of current directory, including owner, size, date and permissions for files | |
+| pwd | print current working directory | |
+| cd | change directory | cd ~ (goes to home) \n cd .. (goes back one folder) |
 
