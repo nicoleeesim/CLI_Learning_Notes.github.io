@@ -42,6 +42,7 @@ We type command into the _**shell**_, the command interpreter. There are various
 | grep | find occurrences of a string in one or more files|  |
 | find . -name xx | find files with filenames starting ‘xx’ in the current directory| find . -name test.txt (conduct search in current directory) <br> find / -name test.txt (conduct search from root directory) |
 | file <filex> | get file type of filex | file ./-file** (to list file type of all files named 'file01', 'file02' by using wild card |
+| du <filex> | get file size of filex | du -a (to list file size of all files including all subfolders |
 
 ## Help Commands
 | **Commands** | **Description** | **Sample codes (if any)** |
