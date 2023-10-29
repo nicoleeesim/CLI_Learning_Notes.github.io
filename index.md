@@ -25,5 +25,7 @@ We type command into the _**shell**_, the command interpreter. There are various
 | ls | list contents of current directory | |
 | ls -l | gives long listing of current directory, including owner, size, date and permissions for files | |
 | pwd | print current working directory | |
-| cd | change directory | cd ~ (goes to home) \n cd .. (goes back one folder) |
+| cd | change directory | cd ~ (goes to home) <br> cd .. (goes back one folder) |
+| mkdir | create a new directory | |
+| rmdir | remove empty directory. If there’s file inside directory, it will throw an error| |
 
