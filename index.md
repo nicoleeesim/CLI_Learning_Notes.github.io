@@ -29,3 +29,19 @@ We type command into the _**shell**_, the command interpreter. There are various
 | mkdir | create a new directory | |
 | rmdir | remove empty directory. If there’s file inside directory, it will throw an error| |
 
+## File related Commands
+| **Commands** | **Description** | **Sample codes (if any)** |
+| -------- | ------- | ------- |
+| cat | shows content of a file, means 'concatenate content and print' |  |
+| cp | copy file |  |
+| mv | move file |  |
+| diff | shows differences between 2 files |  |
+| rm | delete file (caution: forever deleted) |  |
+| grep | find occurrences of a string in one or more files|  |
+| find . -name xx | find files with filenames starting ‘xx’ in the current directory| find . -name test.txt (conduct search in current directory) <br> find / -name test.txt (conduct search from root directory) |
+
+
+## References
+Introduction info: https://man7.org/linux/man-pages/man1/intro.1.html 
+How to create this github page: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+Markdown guide: https://www.markdownguide.org/cheat-sheet/
