@@ -44,7 +44,7 @@ We type command into the _**shell**_, the command interpreter. There are various
 | find . -name xx | find files with filenames starting ‘xx’ in the current directory| find . -name test.txt (conduct search in current directory) <br> find / -name test.txt (conduct search from root directory) |
 | find / -user sally -group sales -size 33c 2>/dev/null | find files owned by user sally, group sales of size 33 bytes. 2>/dev/null removes files that we do not have permission to access | |
 | file <filex> | get file type of filex | file ./-file** (to list file type of all files named 'file01', 'file02' by using wild card |
-| du <filex> | get file size of filex | > du -a (to list file size of all files including all subfolders) <br> > du -a -b | sort -b (to get file size in bytes and sort by bytes) |
+| du <filex> | get file size of filex | "du -a" (to list file size of all files including all subfolders) <br> "du -a -b | sort -b" (to get file size in bytes and sort by bytes) |
 
 ## Help Commands
 | **Commands** | **Description** | **Sample codes (if any)** |
