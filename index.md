@@ -17,8 +17,8 @@ Now, there can are graphical user interfaces
 We type command into the _**shell**_, the command interpreter. There are various types of shells – bash, dash, ash, chsh, ksh, zsh
 
 ## General Commands
-| **Commands** | **Description** | **Sample codes (if any)** |
 
+| **Commands** | **Description** | **Sample codes (if any)** |
 | -------- | ------- | ------- |
 | $ in the command prompt | $ means the command prompt, shell’s way of indicating it is ready for the next command. This can be customized to include things like current directory, time and even customized prompts eg ‘what’s next master?’ |  |
 | date | gives date and time | |
@@ -34,8 +34,8 @@ We type command into the _**shell**_, the command interpreter. There are various
 | exit | exit a running session | |
 
 ## File related Commands
-| **Commands** | **Description** | **Sample codes (if any)** |
 
+| **Commands** | **Description** | **Sample codes (if any)** |
 | -------- | ------- | ------- |
 | cat | shows content of a file, means 'concatenate content and print' |  |
 | cp | copy file |  |
@@ -49,16 +49,16 @@ We type command into the _**shell**_, the command interpreter. There are various
 | du <filex> | get file size of filex | "du -a" (to list file size of all files including all subfolders) <br> "du -a -b \| sort -b" (to get file size in bytes and sort by bytes) |
 
 ## Help Commands
-| **Commands** | **Description** | **Sample codes (if any)** |
 
+| **Commands** | **Description** | **Sample codes (if any)** |
 | -------- | ------- | ------- |
 | man <command> | shows the manual page (documentation) for the command. If there's no manual page, try the help command |  |
 | help <command> | shows the manual page (documentation) for the command. If there's no manual page, the command might be a _**shell built-in**_ so try the _**help**_ command instead |  |
 
 ## Reading files with filenames starting with dashes / containing spaces
-Because dash (-) is generally used by commands to specify options and arguments, working with dashed filename requires some attention. 
-| **Commands** | **Description** | **Sample codes (if any)** |
+Because dash (-) is generally used by commands to specify options and arguments, working with dashed filename requires some attention.
 
+| **Commands** | **Description** | **Sample codes (if any)** |
 | -------- | ------- | ------- |
 | touch -- -filename | Create file with name starting with dash. Need to include '--' before the filename starting with '-' |  |
 | rm -rf -- -filename | Remove file with name starting with dash. Need to include '--' before the filename starting with '-' |  |
