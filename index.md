@@ -23,7 +23,8 @@ We type command into the _**shell**_, the command interpreter. There are various
 | date | gives date and time | |
 | cal | gives calendar | |
 | ls | list contents of current directory | |
-| ls -l | gives long listing of current directory, including owner, size, date and permissions for files | |
+| ls -l | gives long listing of current directory, including owner, size, date and permissions for files <br> -rw-rw-r- permissions <br> 1 : number of linked hard-links <br> lilo: owner of the file <br> lilo: to which group this file belongs to <br> 0: size <br> Feb 26 07:08 modification/creation date and time
+<br> file1: file/directory name | |
 | ls -a | list all files, including hidden files | ls -a ./bandit**/.bandit*.password (to list all files based on wildcard papttern) |
 | pwd | print current working directory | |
 | cd | change directory | cd ~ (goes to home) <br> cd .. (goes back one folder) |
