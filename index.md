@@ -7,7 +7,7 @@ Traditional environment: CLI (command line interface), this is powerful and fast
 Now, there can are graphical user interfaces
 
 | | **Unix** | **Linux** |
-| **Operating System** | Both are operating system |
+| **Operating System** | | Both are operating system |
 | **Development** | Unix is developed by different commercial vendors and non-profit organisation | Linux is open source |
 | **Licensing** | Require license to use | Can be used freely without licensing fees |
 | **Availability** | Common on enterprise level, less on personal PCs | Common on enterprise and personal PPCs |
