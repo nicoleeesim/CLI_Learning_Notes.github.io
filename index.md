@@ -40,6 +40,11 @@ We type command into the _**shell**_, the command interpreter. There are various
 | grep | find occurrences of a string in one or more files|  |
 | find . -name xx | find files with filenames starting ‘xx’ in the current directory| find . -name test.txt (conduct search in current directory) <br> find / -name test.txt (conduct search from root directory) |
 
+## Help Commands
+| **Commands** | **Description** | **Sample codes (if any)** |
+| -------- | ------- | ------- |
+| man <command> | shows the manual page (documentation) for the command. If there's no manual page, try the help command |  |
+| help <command> | shows the manual page (documentation) for the command. If there's no manual page, the command might be a _**shell built-in**_ so try the _**help**_ command instead |  |
 
 ## References
 Introduction info: https://man7.org/linux/man-pages/man1/intro.1.html 
